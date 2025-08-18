@@ -1,8 +1,8 @@
 n = int(input())
-a = input()
-b = input()
+c1 = input()
+c2 = input()
 
-pair = (a + b) * (n // 2)
-last = a * (n % 2)
+pair = (c1 + c2) * (n // 2)
+last = c1 * (n % 2)
 
 print(pair + last)
