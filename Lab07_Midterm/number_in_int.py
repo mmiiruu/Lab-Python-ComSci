@@ -3,9 +3,9 @@ digit = int(input("Enter a digit: "))
 
 if number < 0:
     print("Invalid number.")
-elif digit < 0 or digit > 9:
+if digit < 0 or digit > 9:
     print("Invalid digit.")
-else:
+if number>=0 and 0 <= digit <=9 :
     count = 0
     temp = number
     while temp > 0:
