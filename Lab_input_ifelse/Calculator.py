@@ -1,5 +1,4 @@
 import math
-# Hello
 x = float(input("Enter x : "))
 if x < 0:
     fx = math.sqrt(x**2 + 1)
